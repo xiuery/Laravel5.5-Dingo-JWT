@@ -20,6 +20,11 @@ $ vim .env
 头信息中可以增加 Accept:application/vnd.app.v1+json 切换v1和v2版本
 ```
 
+## 相关说明
+
+- 让 findOrFail 返回 404, 更方便使用
+- 可以用过 `Accept-Language` 头来却换语言，比如 zh-CN, 当然也可以默认中文
+
 ## USEFUL LINK
 
 读文档很重要，请先仔细读读文档 laravel, dingo/api，jwt，fractal 的文档。
@@ -36,11 +41,6 @@ $ vim .env
 - php lint [phplint](https://github.com/overtrue/phplint)
 - Laravel 理念 [From Apprentice To Artisan](https://my.oschina.net/zgldh/blog/389246)
 - 我对 REST 的理解 [http://blog.lyyw.info/2017/02/09/2017-02-09%20%E5%AF%B9rest%E7%9A%84%E7%90%86%E8%A7%A3/](http://blog.lyyw.info/2017/02/09/2017-02-09%20%E5%AF%B9rest%E7%9A%84%E7%90%86%E8%A7%A3/)
-
-## 相关说明
-
-- 让 findOrFail 返回 404, 更方便使用
-- 可以用过 `Accept-Language` 头来却换语言，比如 zh-CN, 当然也可以默认中文
 
 ## License
 
